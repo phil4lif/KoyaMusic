@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color:#333;
+    font-family: 'Lato', sans-serif;
+    background-color: lightgray;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
 header {
     font-size: 64px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,9 +20,14 @@ header {
 }
 
 #bio {
-    font-size: 24px;
-    float: left;
-    width: 40%;
+    font-size: 20px;
+    width: 20%;
+    border: solid 1px red;
+    float:left;
+}
+
+.video {
+    float:left;
 }
 
 ul {
@@ -34,4 +52,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     background-color: black;
+}
+
+.content-area {
+    width: 100%;
+    max-width: 960px;
+    margin: 5px;
+    border: solid 1px red;
 }
