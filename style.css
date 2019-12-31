@@ -84,7 +84,7 @@ li a {
 @media screen and (max-width: 640px){
 .content-area{
     position: relative;
-    height: 1200px;
+    height: 1300px;
     max-width: 500px;
     margin-left: 70px;
 }
@@ -108,6 +108,7 @@ header{
 .video {
     position: absolute;
     top: 180px;
+    opacity: 1.0;
 }
 .bottomphoto{
     position: absolute;
