@@ -34,12 +34,11 @@ header {
     right: 120px;
     background-color: black;
     opacity: 0.8;
-    scroll-behavior: smooth;
 }
 .navbar{
-    
     font-size:18px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -81,5 +80,28 @@ li a {
 }
 
 @media screen and (max-width: 640px){
+.content-area{
+    max-width: 500px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+#bio{
+    margin-top: 20px;
+    width: 250px;
+    
+}
+.newscard{
+    position: absolute;
+    top: 310px;
+    right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+header{
+    text-align: center;
+    margin-left: 10px;
+}
+.navbar{
 
+}
 }
